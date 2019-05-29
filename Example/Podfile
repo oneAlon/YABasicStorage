@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YABasicStorage_Example' do
+  pod 'YABasicStorage', :path => '../'
+
+  target 'YABasicStorage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
