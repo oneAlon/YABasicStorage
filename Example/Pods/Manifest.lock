@@ -1,0 +1,27 @@
+PODS:
+  - YABasicFoundation (1.0.0)
+  - YABasicStorage (0.1.0):
+    - YABasicUtilites
+  - YABasicUtilites (1.0.0):
+    - YABasicFoundation
+
+DEPENDENCIES:
+  - YABasicStorage (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YABasicFoundation
+    - YABasicUtilites
+
+EXTERNAL SOURCES:
+  YABasicStorage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YABasicFoundation: 94fa052662d9894c9e894e42f9007f433d48f6c4
+  YABasicStorage: f3f2015fd4338bac6839bf2e726eb408d594d031
+  YABasicUtilites: d785a30b6726552eac2485fcde82a9d5ec878bd1
+
+PODFILE CHECKSUM: 3d427f4283d058501291a33837113e701da66aa2
+
+COCOAPODS: 1.7.0.beta.1

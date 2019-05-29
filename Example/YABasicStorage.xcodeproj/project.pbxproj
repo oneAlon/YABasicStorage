@@ -324,11 +324,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YABasicStorage_Example/Pods-YABasicStorage_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YABasicStorage/YABasicStorage.framework",
+				"${BUILT_PRODUCTS_DIR}/YABasicFoundation/YABasicFoundation.framework",
+				"${BUILT_PRODUCTS_DIR}/YABasicUtilites/YABasicUtilites.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YABasicStorage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YABasicFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YABasicUtilites.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

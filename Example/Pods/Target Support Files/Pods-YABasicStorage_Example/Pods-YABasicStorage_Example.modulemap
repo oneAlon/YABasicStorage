@@ -1,0 +1,6 @@
+framework module Pods_YABasicStorage_Example {
+  umbrella header "Pods-YABasicStorage_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

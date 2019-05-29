@@ -1,0 +1,6 @@
+framework module YABasicStorage {
+  umbrella header "YABasicStorage-umbrella.h"
+
+  export *
+  module * { export * }
+}
